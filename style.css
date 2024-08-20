@@ -1,6 +1,46 @@
 :root {
-    --main-dark--color: #1F2937;
+    --main-dark-color: #1F2937;
     --button-color: #3882f6;
     --font-grey-color: #F9FAF8;
     --main-grey-color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: var(--main-dark-color);
+    padding: 1em;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.headerNavigationBar {
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+}
+
+.headerNavigationBar li {
+    color: var(--main-grey-color);
+}
+
+.headerLogo {
+    color: var(--font-grey-color);
+    font-size: 24px;
 }
