@@ -17,9 +17,8 @@ ul {
 
 header {
     width: 100%;
-    height: auto;
     background-color: var(--main-dark-color);
-    padding: 1em;
+    padding: 1em 0;
 }
 
 .headerContainer {
@@ -43,4 +42,55 @@ header {
 .headerLogo {
     color: var(--font-grey-color);
     font-size: 24px;
+}
+
+.firstSection {
+    background-color: var(--main-dark-color);
+    height: 400px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstSectionContainer {
+    width: 75%;
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.firstSectionText {
+    width: 50%;
+}
+
+.firstSectionImageContainer {
+    width: 50%;
+}
+
+.catchLine {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--font-grey-color);
+}
+
+.firstSectionDescription {
+    font-size: 18px;
+    color: var(--main-grey-color);
+    margin: 0.5em 0;
+}
+
+.signUpButton {
+    background-color: var(--button-color);
+    color: var(--font-grey-color);
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 5px;
+    margin: 0.5em 0;
+}
+
+.firstSectionImage {
+    width: 100%;
+    height: 100%;
 }
