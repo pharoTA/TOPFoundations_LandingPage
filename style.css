@@ -120,13 +120,11 @@ header {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: gray;
 }
 
 .item {
     width: 150px;
     height: auto;
-    background-color: red;
 }
 
 .itemIllustration {
@@ -179,7 +177,14 @@ header {
     background-color: var(--button-color);
     padding: 2em 6em;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.callToActionTextContainer {
+    max-width: 60%;
 }
 
 .callToActionTitle {
@@ -195,6 +200,8 @@ header {
 .callToActionButton {
     background-color: var(--button-color);
     color: white;
+    max-height: 3em;
+    min-width: 10em;
     padding: 0.5em 2em;
     border: 1px solid white;
     border-radius: 5px;
